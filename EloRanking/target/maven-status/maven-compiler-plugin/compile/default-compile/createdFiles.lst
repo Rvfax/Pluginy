@@ -1,0 +1,8 @@
+com\example\eloranking\placeholder\EloExpansion.class
+com\example\eloranking\command\EloCommand.class
+com\example\eloranking\listener\PlayerListener.class
+com\example\eloranking\manager\ConfigManager.class
+com\example\eloranking\manager\EloManager.class
+com\example\eloranking\model\PlayerData.class
+com\example\eloranking\EloRankingPlugin.class
+com\example\eloranking\manager\DataManager.class

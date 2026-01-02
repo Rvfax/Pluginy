@@ -1,0 +1,17 @@
+name: EloRanking
+version: 1.0.0
+main: com.example.eloranking.EloRankingPlugin
+api-version: "1.21"
+author: Rvfax
+commands:
+  elo:
+    description: Wyswietla i zarzadza ELO gracza
+    usage: /elo [gracz|top|reload|set|add]
+    permission: eloranking.use
+permissions:
+  eloranking.use:
+    description: Pozwala uzywac /elo do podgladu ELO
+    default: true
+  eloranking.admin:
+    description: Dostep do komend administracyjnych EloRanking
+    default: op

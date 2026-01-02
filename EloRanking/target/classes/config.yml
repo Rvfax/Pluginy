@@ -1,0 +1,26 @@
+# Podstawowa konfiguracja systemu ELO
+
+# Liczba punktow przyznawana nowym graczom
+starting-elo: 1000
+
+# Minimalna wartosc zmiany ELO po zabojstwie
+min-change: 1
+
+# Maksymalna wartosc zmiany ELO po zabojstwie
+max-change: 50
+
+# Co ile sekund zapisywac dane do pliku elo.yml
+save-interval-seconds: 60
+
+# Czas blokady na zdobywanie punktow z tego samego gracza (sekundy)
+kill-cooldown-seconds: 300
+
+messaging:
+  # Wiadomosc dla zwyciezcy. Dostepne placeholdery: {points}, {victim}
+  kill: "&a+{points} ELO &7(killed {victim})"
+  # Wiadomosc dla przegranego. Dostepne placeholdery: {points}, {killer}
+  death: "&c-{points} ELO &7(by {killer})"
+  # Wiadomosc gdy gracz jest na cooldownie punktow. Placeholdery: {victim}, {time}
+  cooldown: "&eJuz zabiles {victim}. Odczekaj {time}s zanim znowu otrzymasz punkty."
+  # Wiadomosc gdy ofiara ma 0 ELO
+  zero-elo: "&e{victim} nie ma juz ELO do stracenia."
