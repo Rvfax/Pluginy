@@ -1,6 +1,0 @@
-main: "cc.dreamcode.rvfaxeventy.RvfaxEventyPlugin"
-version: "1.0-InDEV"
-name: "Rvfax-eventy"
-description: "Rvfax-eventy plugin written by Rvfax"
-author: "Rvfax"
-api-version: 1.13
